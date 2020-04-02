@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-maven clean</actionName>
+            <displayName>maven clean</displayName>
+            <goals>
+                <goal>clean:clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-maven package</actionName>
+            <displayName>maven package</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-thorntail run</actionName>
+            <displayName>thorntail run</displayName>
+            <goals>
+                <goal>thorntail:run</goal>
+            </goals>
+        </action>
+    </actions>
