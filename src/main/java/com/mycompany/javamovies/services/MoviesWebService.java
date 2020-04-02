@@ -32,7 +32,7 @@ import javax.xml.ws.soap.MTOM;
  */
 @WebService(serviceName = "MoviesWebService")
 @MTOM(enabled=true, threshold=100000)
-@HandlerChain(file = "MoviesWebService_handler.xml")
+@HandlerChain(file = "/MoviesWebService_handler.xml")
 public class MoviesWebService {
     
     @WebMethod(operationName = "addContent")
