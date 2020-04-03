@@ -2,8 +2,6 @@ javax:javaee-api:jar:8.0:
   - javax:javaee-api:jar:8.0:provided
   - com.sun.mail:javax.mail:jar:1.6.0:provided
   - javax.activation:activation:jar:1.1:provided
-com.oracle:ojdbc7:jar:12.2.0.1:
-  - com.oracle:ojdbc7:jar:12.2.0.1:compile
 io.thorntail:webservices:jar:2.6.0.Final:
   - io.thorntail:webservices:jar:2.6.0.Final:compile
   - io.thorntail:undertow:jar:2.6.0.Final:compile
